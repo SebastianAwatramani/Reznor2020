@@ -1,0 +1,373 @@
+
+
+
+
+
+html {
+	margin: 0;
+	max-width: 100%;
+	position: static;
+	height: 100%;
+}
+
+body {
+	max-width: 100%;
+	position: relative;
+	margin: 0;
+	height: 100%;
+}
+
+/*Header Styles*/
+
+
+
+figure img {
+	max-width: 100px;
+}
+
+header {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	padding: 25px 90px;
+	/*Putting the -15px here moves the whole thing to the left; not sure of the point*/
+	/*margin: 0px -15px;*/ 
+	margin: 0;
+	position: fixed;
+	width: 100%;
+
+	/*overflow: auto;*/
+
+	border-bottom: 1px solid rgba(221, 197, 197, 0.5);
+	background-color: white;
+
+	z-index: 999;
+
+
+
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Roboto";
+	margin: 0;
+}
+
+p {
+	font: 18px "Questrial";
+}
+
+#logoContainer figure {
+	margin: 0;
+}
+
+#navContainer {
+	text-align: center;
+
+}
+#navContainer nav ul {
+	/*font-size: 0;*/
+}
+#navContainer nav ul li {
+	text-transform: uppercase;
+	display: inline-block;
+	list-style-type: none;
+	line-height: 45px;
+
+}
+
+/*Nav styles*/
+#navContainer nav ul li a,
+#navContainer nav ul li a:visited  {
+	color: #4c4c4c;
+}
+
+#navContainer nav ul li a:hover  {
+	color: #b93a41;
+
+}
+
+#navContainer nav ul li a, 
+#navContainer nav ul li a:hover, 
+#navContainer nav ul li a:visited {
+	text-decoration: none;
+	/*padding: 10px 30px;*/
+	font: 16px "Lato";
+}
+
+#navContainer nav ul {
+	padding: 0;
+}
+
+#logoContainer {
+	/*margin: 1px;*/
+
+}
+
+#navContainer {
+
+}
+
+#socialMediaSideBarContainer {
+	/*margin: 1px;*/
+	position: relative;
+
+}
+
+	/*Hambuger Styles*/
+#btnContainer {
+	display: none;
+}
+
+.hamburgerLine {
+	width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
+}
+
+
+
+/*Social Media Icons Styles*/
+
+.socialMediaIcon {
+	max-width: 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	opacity: .3;
+	margin: 0 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*#fbIcon {
+	background-image: url("../assets/fb.svg");
+}
+
+#twIcon {
+	background-image: url("../assets/tw.svg");
+}
+
+#liIcon {
+	background-image: url("../assets/li.svg");
+}*/
+
+#socialMediaSideBar {
+	float: right;
+}
+
+
+/*Super Styles*/
+.containerColumn {
+	float: left;
+}
+
+.c25, .c33, .c50, .c66 {
+	float: left;
+}
+
+.c25 {
+	width: 25%;
+	margin: -1px;
+
+}
+
+.c33 {
+	width: 33.3%;
+}
+
+.c50 {
+	width: 50%;
+	margin: -1px;
+}
+
+.c66 {
+	width: 66.6%;
+}
+
+.c100 {
+	width: 100%;
+	margin: -1px;
+}
+
+/*Page Title Styles*/
+/*By making the padding-top equal to the size of the header, and then adding padding to the h1 and setting the margin to 0, then h1 text is perfectly centered*/
+/*Padding-top is being set in js for responsiveness*/
+#titleContainer {
+	background-color: #002a5c !important;
+	/*padding-top: 171px;*/
+	box-sizing: border-box;
+}
+
+#titleContainer h1 {
+
+	font: 35px "Lato";
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	color: white;
+	padding: 15px;
+}
+
+/*Main Section Styles*/
+main {
+
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+article#mainContent {
+
+	float: left;
+	padding: 0 40px;
+	box-sizing: border-box;
+	padding-bottom: 40px;
+	display: block;
+	min-width: 320px;
+}
+
+div#mainContentWrapper {
+	/*I think this needs to be set depending on resolution*/
+	max-width: 1170px;
+	margin: 80px auto 0 auto;
+	box-sizing: border-box;
+	display: block;
+
+}
+
+aside#sideBar {
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+
+iframe {
+	width: 100%;
+}
+
+.videoWrapper {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+.resp-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/*Footer Styles*/
+
+footer#footerTop {
+	background-color: #002a5c;
+	padding: 140px 90px;
+	color: white;
+	box-sizing: border-box;
+}
+
+footer#footerBottom {
+	background-color: #b93a41;
+	padding: 50px 90px;
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+
+}
+
+footer#footerBottom h3 {
+	font: 24px "Questrial";
+
+}
+
+#footerItemContainer {
+	max-width: 1170px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.footerItem {
+	padding: 0 10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.twitter-timeline {
+	overflow: auto;
+	max-height: 300px;
+}
+
+.footerItem h2 {
+	/*text-align: center;*/
+}
+
+
+@media screen and (min-width: 1450px) {
+	#navContainer nav ul li a {
+		padding: 10px 30px;
+	}
+}
+
+@media screen and (max-width: 1449px) {
+	#navContainer nav ul li a {
+		padding: 10px 10px;
+	}
+}
+
+@media screen and (max-width: 815px) {
+	#navContainer nav ul li {
+		display: block;
+	}
+
+	#navContainer {
+	display: none;
+	}
+	.socialMediaIcon {
+		/*position: absolute;*/
+		bottom: 0;
+		box-sizing: border-box;
+		/*margin: auto;*/
+		height: 100%;
+		width: 25px;
+		max-width: 25px;
+		line-height: 39px;
+	}
+	.socialMediaIcon img {
+		/*padding: 10px 0px;*/
+		height: 25px;
+		/*display:table-cell;*/
+		vertical-align: middle;
+		/*margin: 0px 5px;*/
+
+	}
+	#socialMediaSideBarContainer, #socialMediaSideBar {
+		height: 39px;
+		position: relative;
+		box-sizing: border-box;
+		text-align: right;
+		min-width: 105px;
+	}
+	#socialMediaSideBar {
+		width: 100%;
+		margin: auto;
+	}
+	#btnContainer {
+		display: block;
+	}
+	header {
+		padding: 0;
+	}
+	#logoContainer figure img, #logoContainer figure {
+		max-height: 39px;
+	}
+	icon {
+		display: table-cell;
+	}
+}

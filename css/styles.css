@@ -1,0 +1,672 @@
+
+.navExpanded {
+	display:block !important;
+}
+
+/*#navContainer nav ul li {
+	display: block !important;
+}
+*/
+
+
+html {
+	margin: 0;
+	max-width: 100%;
+	position: static;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	max-width: 100%;
+	position: relative;
+	margin: 0;
+	height: 100%;
+	font-size: 14px;
+	font-size: 1.4rem;
+	background-color: rgb(255,255,255);
+    font-family: "Questrial";
+	
+}
+
+body p {
+/*	font-family: "Fira Sans";*/
+	line-height: 1.6rem;
+	line-height: 24px;
+	color: #4c4c4c;
+}
+
+/*Header Styles*/
+
+
+
+figure#logo img {
+	max-width: 100px;
+}
+
+header {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	padding: 25px 90px;
+	/*Putting the -15px here moves the whole thing to the left; not sure of the point*/
+	/*margin: 0px -15px;*/ 
+	margin: 0;
+	position: fixed;
+	width: 100%;
+
+	/*overflow: auto;*/
+
+	border-bottom: 1px solid rgba(221, 197, 197, 0.5);
+	background-color: rgb(255,255,255);
+	z-index: 999;
+
+
+
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Questrial";
+    font-family: "Archivo Narrow";
+	margin: 0;
+	color: #333333;
+}
+
+h1 {
+	font-size: 45px;
+	font-size: 4.2rem;
+	line-height: 48px;
+}
+
+p {
+	font: 18px "Questrial";
+}
+
+#logoContainer figure {
+	margin: 0;
+}
+
+#navContainer {
+	text-align: center;
+
+}
+#navContainer nav ul {
+	/*font-size: 0;*/
+}
+#navContainer nav ul li {
+	text-transform: uppercase;
+	display: inline-block;
+	list-style-type: none;
+	line-height: 45px;
+
+}
+
+/*Nav styles*/
+#navContainer nav ul li a,
+#navContainer nav ul li a:visited  {
+	color: #4c4c4c;
+}
+
+#navContainer nav ul li a:hover  {
+	color: #b93a41;
+
+}
+
+#navContainer nav ul li a, 
+#navContainer nav ul li a:hover, 
+#navContainer nav ul li a:visited {
+	text-decoration: none;
+	/*padding: 10px 30px;*/
+	font: 16px "Lato";
+}
+
+#navContainer nav ul {
+	padding: 0;
+}
+
+#logoContainer {
+	/*margin: 1px;*/
+
+}
+
+#navContainer {
+
+}
+
+#socialMediaSideBarContainer {
+	/*margin: 1px;*/
+	position: relative;
+
+}
+
+	/*Hambuger Styles*/
+#btnContainer {
+	display: none;
+}
+
+#hamburger {
+	width: 35px;
+	margin: 0 auto;
+}
+.hamburgerLine {
+	width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
+}
+
+
+
+/*Social Media Icons Styles*/
+
+.socialMediaIcon {
+	max-width: 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	opacity: .3;
+	margin: 0 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*#fbIcon {
+	background-image: url("../assets/fb.svg");
+}
+
+#twIcon {
+	background-image: url("../assets/tw.svg");
+}
+
+#liIcon {
+	background-image: url("../assets/li.svg");
+}*/
+
+#socialMediaSideBar {
+	float: right;
+}
+
+
+/*Super Styles*/
+.containerColumn {
+	float: left;
+	box-sizing: border-box;
+}
+
+.c25, .c33, .c50, .c66 {
+	float: left;
+	box-sizing: border-box;
+}
+
+.c25 {
+	width: 25%;
+/*	margin: -1px;*/
+
+}
+
+.c33 {
+	width: calc(100% / 3);
+}
+
+.c40 {
+    width: 40%;
+}
+
+.c50 {
+	width: 50%;
+/*	margin: -1px;*/
+}
+
+.c60 {
+    width: 60%;
+}
+
+.c66 {
+	width: 66.6%;
+}
+
+.c80 {
+    width: 80%;
+}
+
+.c100 {
+	width: 100%;
+/*	margin: -1px;*/
+	box-sizing: border-box;
+}
+
+/*Page Title Styles*/
+/*By making the padding-top equal to the size of the header, and then adding padding to the h1 and setting the margin to 0, then h1 text is perfectly centered*/
+/*Padding-top is being set in js for responsiveness*/
+#titleContainer {
+	background-color: #002a5c !important;
+	/*padding-top: 171px;*/
+	box-sizing: border-box;
+}
+
+#titleContainer h1 {
+
+	font: 3rem "Questrial";
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	color: white;
+	padding: 10px;
+}
+
+/*Main Section Styles*/
+main {
+
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+h1#articleTitle {
+    border-bottom: 1px solid rgba(221, 197, 197, 0.5);
+    padding-bottom: 25px;
+    text-align: left;
+}
+article#mainContent {
+
+	float: left;
+/*	padding: 0 40px;*/
+	box-sizing: border-box;
+	padding: 40px 40px 40px 0;
+	display: block;
+	min-width: 320px;
+    border-right: 1px solid rgba(221, 197, 197, 0.5);
+/*    margin-top: 25px;*/
+/*    margin-right: 40px;*/
+}
+
+.no-border {
+    border: 0 !important;
+}
+
+div#mainContentWrapper {
+	/*I think this needs to be set depending on resolution*/
+	max-width: 1300px;
+	margin: 40px auto 0 auto;
+	box-sizing: border-box;
+	display: block;
+/*    border-top: 1px solid rgba(221, 197, 197, 0.5);*/
+    padding: 0 20px 40px 20px;
+
+}
+
+article h2 {
+/*    margin-top: 25px;*/
+}
+
+/*Sidebar Styles*/
+
+aside#sideBar {
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 40px;
+    padding-top: 40px;
+    
+/*    margin-top: 25px;*/
+}
+
+
+
+.sideBarImageContainer {
+	max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.sideBarImageContainer figure {
+	margin: 0;
+}
+.sidebarImage {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*VIDEO PLAYER STYLES*/
+iframe {
+	width: 100%;
+}
+
+.videoWrapper {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+	margin: 0;
+}
+
+.resp-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+
+
+/*Footer Styles*/
+
+#footerContainer {
+    margin-top: 25px;
+}
+
+footer#footerTop {
+	background-color: #002a5c;
+	padding: 140px 90px;
+	color: white;
+	box-sizing: border-box;
+}
+
+footer#footerBottom {
+	background-color: #b93a41;
+	padding: 50px 90px;
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+
+}
+
+footer#footerBottom h3 {
+	font: 1.8rem "Questrial";
+	color: rgb(255,255,255);
+
+}
+
+#footerItemContainer {
+	max-width: 1170px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.footerItem {
+	padding: 10px 10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.footerItem p {
+	color: rgb(255,255,255);
+}
+
+.twitter-timeline {
+	overflow: auto;
+	max-height: 300px;
+}
+
+.footerItem h2 {
+	/*text-align: center;*/
+}
+
+.footerItem nav ul li a, 
+.footerItem nav ul li a:hover, 
+.footerItem nav ul li a:visited {
+	text-decoration: none;
+	/*padding: 10px 30px;*/
+	font: 16px "Lato";
+	color: white;
+}
+
+.footerItem nav ul li a:hover {
+	border-bottom: 4px dotted #8F3F0E;
+	/*padding-bottom: 1px;*/
+}
+
+footer div h2 {
+	font-family: "Questrial";
+	color: rgb(255,255,255);
+}
+
+
+
+@media screen and (min-width: 1450px) {
+	#navContainer nav ul li a {
+		padding: 10px 30px;
+	}
+}
+
+@media screen and (max-width: 1449px) {
+	#navContainer nav ul li a {
+		padding: 10px 10px;
+	}
+}
+
+
+/*SLIDE STYLES*/
+
+
+#voteHeadline {
+    position: absolute;
+    bottom: 50px;
+    left:0;
+    background-color: #b93a41;
+    color:  white;
+    text-transform: uppercase;
+    font-size: calc(3vw);
+    font-family: "Helvetica", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 1.5vw 1.5vw 1.5vw 12vw;
+    font-kerning: normal;
+    letter-spacing: -2px;
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1024px) {
+	#navContainer nav ul li {
+		display: block;
+	}
+
+	#navContainer {
+	display: none;
+	position: fixed;
+	top: 58px;
+	background-color: white !important;
+	/*color: white;*/
+	/*text-align: left !important;*/
+	width: 100% !important;
+	margin-top: -2px !important;
+	border-bottom: 2px solid gray;
+	}
+	.socialMediaIcon {
+		/*position: absolute;*/
+		bottom: 0;
+		box-sizing: border-box;
+		/*margin: auto;*/
+		height: 100%;
+		width: 25px;
+		max-width: 25px;
+		line-height: 39px;
+		white-space: nowrap;
+		float: none;
+	}
+	.socialMediaIcon img {
+		/*padding: 10px 0px;*/
+		height: 25px;
+		/*display:table-cell;*/
+		vertical-align: middle;
+		/*margin: 0px 5px;*/
+
+	}
+	#socialMediaSideBarContainer, #socialMediaSideBar {
+		height: 39px;
+		position: relative;
+		box-sizing: border-box;
+		text-align: right;
+		float: right;
+		/*min-width: 105px;*/
+		white-space: nowrap;
+	}
+	#socialMediaSideBar {
+		/*width: 100%;*/
+		margin: auto;
+	}
+	#btnContainer {
+		display: block;
+	}
+	header {
+		padding: 10px 0;
+		white-space: nowrap;
+	}
+	#logoContainer figure img, #logoContainer figure {
+		max-height: 39px;
+	}
+	icon {
+		display: table-cell;
+	}
+
+	#mainContent {
+		width: 100%;
+        padding-right: 0 !important;
+        border: 0 !important;
+        
+	}
+    
+    div#mainContentWrapper {
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+	aside#sideBar {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0 40px;
+		display: block;
+		float: none;
+        text-align: center;
+	}
+    
+    .sideBarImageContainer figure figcaption {
+        text-align: left;
+    }
+
+	footer#footerTop {
+		padding: 50px 10px;
+	}
+
+	.footerItem {
+		text-align: left;
+		width: 100%;
+		float:none;
+	}
+
+	.footerItem nav ul {
+		list-style-type: none;
+		padding: 0;
+	}
+    
+    
+    #voteHeadline {
+    position: absolute;
+    bottom: 5vw;
+    width: 100%;
+    font-size: calc(5vw);
+    font-family: "Helvetica", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 1vw 1vw 1vw 1vw;
+    font-kerning: normal;
+    letter-spacing: normal;
+        text-align: center;
+}
+
+
+
+}
+
+@media all and (max-width: 400px) {
+    #footerBottom {
+        padding: 50px 10px !important;
+    }
+}
+
+/*ISSUE STYLES*/
+
+.issueText {
+    height: auto;
+    max-height: 0;
+    opacity: 0;
+    display: none;
+/*    transition: max-height 2s ease;*/
+    text-align: center;
+}
+
+.issueTextShow {
+    max-height: 800px;
+    opacity: 1;
+    display: block;
+/*    transition: max-height 2s linear;*/
+   
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.issueHeading {
+    margin: 10px 0;
+    font-size: 2rem;
+/*    border-top: .5px solid #999;*/
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 15px 0;
+/*    text-align: center;*/
+/*    border-radius: 10px;*/
+    font-weight: 400;
+/*    color: white;*/
+    cursor: pointer;
+/*    text-align: center;*/
+    
+    
+
+/*    background: #002a5c;*/
+
+}
+#issuesList {
+    /*    background: #69130A;*/
+    padding: 40px 25px;
+    /*    border-left: 1px solid black;*/
+    -webkit-box-shadow: 17px 24px 42px -40px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 17px 24px 42px -40px rgba(0, 0, 0, 0.75);
+    box-shadow: 17px 24px 42px -40px rgba(0, 0, 0, 0.75);
+/*    border-radius: 10px;*/
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+/*    border-top: 1px solid rgba(0, 0, 0, .1);*/
+/*    margin-top: 20px;*/
+}
+
+#issueListHeading {
+    text-align: center;
+    font-variant: small-caps;
+    margin: 20px 0;
+}
+/*
+#issueListHeading:after {
+    display:block;
+position:relative;
+content:'';
+left: 50%;
+width: 50px;
+height: 50px;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%) rotate(45deg);
+bottom: -25px;
+z-index: 10;
+background: inherit;
+box-shadow: -50px 50px 0 #002a5c, 50px -50px 0 #002a5c;
+}
+*/

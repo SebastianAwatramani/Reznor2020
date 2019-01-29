@@ -1,0 +1,29 @@
+.supporterImage {
+	float: right;
+	display: block;
+	clear: both;
+	/*margin-top: 25px;*/
+	object-fit: cover;
+	max-width: 250px;
+}
+
+#mainContent h2 {
+	/*margin: 0 0 15px;*/
+	clear:both;
+	font-size: 2.5rem;
+}
+
+.supporterImageContainer {
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	float: right;
+	display: block;
+	clear: both;
+	margin-top: 25px;
+    border-radius: 15px;
+}
+
+#mainContent {
+    border: 0 !important;
+}

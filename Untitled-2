@@ -1,0 +1,82 @@
+
+.issueText {
+    height: auto;
+    max-height: 0;
+    opacity: 0;
+    display: none;
+/*    transition: max-height 2s ease;*/
+}
+
+.issueTextShow {
+    max-height: 800px;
+    opacity: 1;
+    display: block;
+/*    transition: max-height 2s linear;*/
+   
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.issueHeading {
+    margin: 10px 0;
+    font-size: 2rem;
+/*    border-top: .5px solid #999;*/
+/*    border-bottom: 1px solid #002a5c;*/
+    padding: 15px 0;
+/*    text-align: center;*/
+/*    border-radius: 10px;*/
+    font-weight: 400;
+/*    color: white;*/
+    cursor: pointer;
+/*        background-color: #b93a41;*/
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    
+    
+
+/*    background: #002a5c;*/
+
+}
+#issuesList {
+    /*    background: #69130A;*/
+    
+    padding: 40px 25px;
+    /*    border-left: 1px solid black;*/
+    
+    -webkit-box-shadow: 17px 24px 42px -40px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 17px 24px 42px -40px rgba(0, 0, 0, 0.75);
+    box-shadow: 17px 24px 42px -40px rgba(0, 0, 0, 0.75);
+    /*    border-radius: 10px;*/
+    
+    background-color: white;
+    border: 15px solid #002a5c;
+    /*    border-top: 1px solid rgba(0, 0, 0, .1);*/
+    
+    margin-top: 20px;
+        background-color: #b93a41;
+}
+#issueListHeading {
+    text-align: center;
+    font-variant: small-caps;
+
+}
+#issueListHeading:after {
+    display: block;
+    position: relative;
+    content: '';
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    bottom: -46px;
+    z-index: 10;
+    background: inherit;
+    box-shadow: -50px 50px 0 #002a5c, 50px -50px 0 #002a5c;
+}
